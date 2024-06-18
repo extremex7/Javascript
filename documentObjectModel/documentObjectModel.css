@@ -6,3 +6,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: line-through;;
 }
+
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+}

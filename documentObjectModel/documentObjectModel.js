@@ -18,6 +18,36 @@
 // console.dir(heading);
 
 //selecting with class
+// let heading  = document.getElementsByClassName("heading");
+// console.dir(heading);
 
-let heading  = document.getElementsByClassName("heading");
-console.dir(heading);
+
+// //selecting with tag
+// let paras = document.getElementsByTagName("p");
+// console.log(paras);
+
+// //selecting with querySelector
+// let que = document.querySelector("h1");
+// console.log(que);
+
+
+// let div = document.querySelector("div");
+// let id = div.getAttribute("id");
+// console.log(id);
+
+// div.setAttribute("id", "newBox");
+// console.log(div);
+
+// let div = document.querySelector("div");
+// console.log(div);
+
+// div.style.backgroundColor = "green";
+// div.style.fontSize = "26px";
+
+let btn = document.createElement("button");
+btn.innerText = "click here";
+console.log(btn);
+let div = document.querySelector("div");
+div.after(btn);
+
+// div.remove();
